@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:id="@+id/dropdownContainer"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/dropdown_background"
+        android:elevation="8dp"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <!-- زر الرجوع للخلف -->
+        <ImageButton
+            android:id="@+id/previousButton"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back"
+            android:scaleType="centerInside"
+            android:padding="8dp"
+            android:contentDescription="السطر السابق" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="#33FFFFFF" />
+
+        <!-- زر إغلاق الزر العائم -->
+        <ImageButton
+            android:id="@+id/closeFloatingButton"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close"
+            android:scaleType="centerInside"
+            android:padding="8dp"
+            android:contentDescription="إغلاق الزر العائم" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="#33FFFFFF" />
+
+        <!-- زر إخفاء القائمة (3 أسهم) -->
+        <ImageButton
+            android:id="@+id/hideMenuButton"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_chevron_up"
+            android:scaleType="centerInside"
+            android:padding="8dp"
+            android:contentDescription="إخفاء القائمة" />
+
+    </LinearLayout>
+
+</FrameLayout>

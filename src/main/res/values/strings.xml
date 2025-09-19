@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fast Copy</string>
+    <string name="accessibility_service_description">خدمة اللصق التلقائي من Fast Copy</string>
+    <string name="desc_previous">الرجوع</string>
+    <string name="desc_search">بحث</string>
+    <string name="desc_close">إغلاق</string>
+</resources>
